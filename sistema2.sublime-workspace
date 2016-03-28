@@ -1,0 +1,1586 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"en",
+				"enabled"
+			],
+			[
+				"ce",
+				"cedula"
+			],
+			[
+				"ti",
+				"tipo_u"
+			],
+			[
+				"s",
+				"sql"
+			],
+			[
+				"re",
+				"recordar"
+			],
+			[
+				"f_re",
+				"f_registro2"
+			],
+			[
+				"i",
+				"input	Tag"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"f",
+				"filtro"
+			],
+			[
+				"ced",
+				"ced_estu"
+			],
+			[
+				"Es",
+				"estudiante"
+			],
+			[
+				"res",
+				"response_json"
+			],
+			[
+				"c",
+				"click	.click()"
+			],
+			[
+				"la",
+				"lapsos"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"cod",
+				"cod_comp"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"utf",
+				"utf8_decode"
+			],
+			[
+				"R",
+				"recordar"
+			],
+			[
+				"not",
+				"notas_docentes"
+			],
+			[
+				"t",
+				"tipo"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"co",
+				"conecta"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"v",
+				"val	.val()"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"con",
+				"contraseña"
+			],
+			[
+				"blu",
+				"blurFunction"
+			],
+			[
+				"cha",
+				"charAt"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"val",
+				"validarEmail"
+			],
+			[
+				"DO",
+				"document"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"nu",
+				"num_caracteres"
+			],
+			[
+				"te",
+				"texto"
+			],
+			[
+				"pro",
+				"profesor"
+			],
+			[
+				"de",
+				"text-decoration"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"fo",
+				"formulario"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"reg",
+				"registrar"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"regi",
+				"registrarse"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"1px",
+				"1px"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"BR",
+				"br	Tag"
+			],
+			[
+				"can",
+				"cantidadPagado"
+			],
+			[
+				"cobr",
+				"cobrarDestinatario"
+			],
+			[
+				"colo",
+				"colocarDestinatario"
+			],
+			[
+				"paq",
+				"paq1"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"conte",
+				"contenedor"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"opcion",
+				"opcionUsuario"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"usua",
+				"usuarios"
+			],
+			[
+				"prom",
+				"prompt"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"ap",
+				"apellido"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"j",
+				"jAlert"
+			],
+			[
+				"app",
+				"apprise"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"me",
+				"mensaje"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"no",
+				"nombre"
+			],
+			[
+				"usu",
+				"usuarios"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"sess",
+				"session_destroy"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"g",
+				"gris_oscuro"
+			],
+			[
+				"ico",
+				"iconitos"
+			],
+			[
+				"gr",
+				"gris_texto"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"fi",
+				"font-size"
+			],
+			[
+				"q",
+				"query2"
+			],
+			[
+				"insc",
+				"inscripcion"
+			],
+			[
+				"f_",
+				"f_ing"
+			],
+			[
+				"telf",
+				"telf2"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/registrar.js",
+			"settings":
+			{
+				"buffer_size": 3796,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ingresar.php",
+			"settings":
+			{
+				"buffer_size": 3926,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php \nheader(\"Content-type: text/html; charset=utf8\");\nrequire_once (\"includes/db.php\");\n$response_json=array(\"num_rows\"=>0,\"success\"=>false, \"info\"=>array(), \"mensaje\"=>\"Faltaron datos para procesar la infomaci&oacute;n\");\nif(isset($_POST[\"evento\"])){\n	switch($_POST[\"evento\"]){\n		case \"validar_usuario\":\n			$sql=sprintf(\"SELECT u.cod_reg FROM usuario AS u WHERE usuario='%s'\", $_POST[\"usuario\"]);\n			$consulta=mysql_query($sql, $conexion) or die($sql);\n			if(!$consulta){\n				echo\"Error de Consulta\", mysql_errno(), mysql_error();\n				exit; \n			}\n			$response_json['success']=true;\n			$response_json['num_rows']=mysql_num_rows($consulta);\n			if($response_json['num_rows']==0){\n				$response_json['status']=\"Disponble\";\n				\n			}\n			else\n			{\n				$response_json['status']=\"No Disponble\";\n				$estilo = 'color2';\n			}\n		break;\n		case \"nuevo\":\n			$field=($_POST[\"tipousuario\"]==\"Estudiante\")?\"u.cod_estu\":\"u.cod_prof\";\n			$sql=sprintf(\"SELECT u.cod_reg FROM usuario AS u WHERE %s=%d\", $field, $_POST[\"codigo\"]);\n			$consulta=mysql_query($sql, $conexion) or die($sql);\n			if(!$consulta){\n				echo\"Error de Consulta\", mysql_errno(), mysql_error();\n				exit; \n			}\n			$response_json['num_rows']=mysql_num_rows($consulta);\n			if($response_json['num_rows']!=0){\n				$response_json['mensaje']=\"No Disponble\";	\n				break;\n			}\n			if($_POST[\"tipousuario\"]==\"Estudiante\")\n				$sql=sprintf(\"SELECT e.cod_estu AS codigo FROM estudiante AS e\n				 WHERE e.ced_estu='%s'\", $_POST[\"cedula\"]);\n			else\n				$sql=sprintf(\"SELECT p.cod_prof AS codigo FROM profesor AS p\n				 WHERE p.ced_prof='%s' \", $_POST[\"cedula\"]);\n			$consulta=mysql_query($sql, $conexion) or die($sql);\n			if(!$consulta){\n				echo\"Error de Consulta\", mysql_errno(), mysql_error();\n				exit; \n			}\n			$response_json['num_rows']=mysql_num_rows($consulta);\n			if($response_json['num_rows']==1){\n				$row_usuario = mysql_fetch_assoc($consulta);\n				if($row_usuario[\"codigo\"]!=$_POST[\"codigo\"]){\n					$response_json['mensaje']=\"Los datos de cedula no coinciden con el codigo\";\n					break;\n				}\n				$a_tipo_user=array(\"Estudiante\"=>2, \"Profesor\"=>1);\n				$mx='$stelmas$%/=zeck001mx$/';\n				$clave = $mx.sha1(md5($_POST['contraseña']));\n				$id_estudiante=($_POST[\"tipousuario\"]==\"Estudiante\")?$row_usuario[\"codigo\"]:null;\n				$id_profesor=($_POST[\"tipousuario\"]!=\"Estudiante\")?$row_usuario[\"codigo\"]:null;\n				$sql=sprintf(\"INSERT INTO usuario (usuario, tipo_usuario, clave, cod_estu, cod_prof, pregunta, repuesta) VALUES ('%s', '%s','%s',%d,%d, '%s', '%s')\", $_POST[\"usuario\"], $a_tipo_user[$_POST[\"tipousuario\"]],$clave,$id_estudiante, $id_profesor, $_POST[\"pregunta\"], $_POST[\"respuesta\"]);\n				$consulta=mysql_query($sql, $conexion) or die($sql);\n				if(!$consulta){\n					echo\"Error de Consulta\", mysql_errno(), mysql_error();\n					exit; \n				}\n				$response_json['success']=true;\n				$sql_estudiante=sprintf(\"UPDATE estudiante SET tel_estu='%s', ce_estu='%s' WHERE cod_estu=%d\", $_POST[\"telefono\"], $_POST[\"email\"], $_POST[\"codigo\"]);\n				$sql_docente=sprintf(\"UPDATE profesor SET tel_prof='%s', ce_prof='%s'  WHERE cod_prof=%d\", $_POST[\"telefono\"], $_POST[\"email\"], $_POST[\"codigo\"]);\n				$sql=($_POST[\"tipousuario\"]==\"Estudiante\")?$sql_estudiante:$sql_docente;\n				$consulta=mysql_query($sql, $conexion) or die($sql);\n				if(!$consulta){\n					echo\"Error de Consulta\", mysql_errno(), mysql_error();\n					exit; \n				}\n				$response_json['affected_rows']=mysql_affected_rows();\n				$response_json['mensaje']=($response_json['affected_rows']==1)?\"Los datos fueron guardados satisfactoriamente\":\"No se registaron los datos\";\n			}\n		break;\n	}\n}elseif(isset($_POST['cedula']) && !empty($_POST['cedula'])){\n	$sql=sprintf(\"SELECT e.cod_estu, e.nom_estu, u.usuario FROM estudiante AS e LEFT OUTER JOIN usuario AS u ON e.cod_estu = u.cod_estu WHERE e.ced_estu='%s'\", $_POST[\"cedula\"]);\n	$consulta=mysql_query($sql, $conexion) or die($sql);\n	if(!$consulta){\n		echo\"Error de Consulta\", mysql_errno(), mysql_error();\n		exit; \n	}\n	$response_json['success']=true;\n	$response_json['num_rows']=mysql_num_rows($consulta);\n	$response_json['mensaje']=\"\";\n	if($response_json['num_rows']==1){\n		$fila = mysql_fetch_assoc($consulta);\n		$response_json['info']['nombre']=$fila['nom_estu'];\n		if(isset($fila[\"usuario\"])){\n			$response_json['mensaje']=\"Usuario ya se encuentra registrado\";\n		}\n		$response_json['info']['usuario']=$fila['usuario'];\n		$response_json['info']['codigo']=$fila['cod_estu'];\n		$response_json['info']['tipousuario']='Estudiante';\n	}else{\n		$sql=sprintf(\"SELECT p.cod_prof, p.nom_prof, u.usuario FROM profesor AS p LEFT OUTER JOIN usuario AS u ON p.cod_prof = u.cod_prof WHERE p.ced_prof='%s' \", $_POST[\"cedula\"]);\n		$consulta=mysql_query($sql, $conexion) or die($sql);\n		if(!$consulta){\n				echo\"Error de Consulta\", mysql_errno(), mysql_error();\n				exit; \n		}\n		$response_json['num_rows']=mysql_num_rows($consulta);\n		if($response_json['num_rows']==1){\n			$fila = mysql_fetch_assoc($consulta);\n			$response_json['info']['nombre']=$fila['nom_prof'];\n			$response_json['info']['codigo']=$fila['cod_prof'];\n			$response_json['info']['usuario']=$fila['usuario'];\n			$response_json['info']['tipousuario']='Profesor';\n		}\n	}\n}\necho json_encode($response_json);\nmysql_close($conexion);\n?>",
+			"file": "registrar.php",
+			"file_size": 5226,
+			"file_write_time": 1444226912000000,
+			"settings":
+			{
+				"buffer_size": 5235,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "recordar.php",
+			"settings":
+			{
+				"buffer_size": 1647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "admin/proc_cons_estudiante.php",
+			"settings":
+			{
+				"buffer_size": 1059,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/recordar.js",
+			"settings":
+			{
+				"buffer_size": 1335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/encabezado.php",
+			"settings":
+			{
+				"buffer_size": 912,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/menu.styl",
+			"settings":
+			{
+				"buffer_size": 7838,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/biblioteca/procesa_busqueda.php",
+			"settings":
+			{
+				"buffer_size": 3462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/biblioteca/buscar.html",
+			"settings":
+			{
+				"buffer_size": 1946,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 264.0,
+		"selected_items":
+		[
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/sistema2/includes/encabezado.php",
+		"/var/www/html/sistema2/paginas/proc_cons_estudiante.php",
+		"/var/www/html/sistema2/paginas/reporte_estudiante.php",
+		"/var/www/html/sistema2/js_admin/registrar_nota.js",
+		"/var/www/html/sistema2/js_admin/cons_profesor.js",
+		"/var/www/html/sistema2/admin/cons_profesor.php",
+		"/var/www/html/sistema2/js/cons_estudiante.js",
+		"/var/www/html/sistema2/css/print.styl",
+		"/var/www/html/sistema2/js_admin/cons_estudiante.js",
+		"/var/www/html/sistema2/paginas/cons_estudiante.php",
+		"/var/www/html/sistema2/admin/busqueda_consultas.php",
+		"/var/www/html/sistema2/admin/mod_notas.php",
+		"/var/www/html/sistema2/admin/reporte_estudiante.php",
+		"/var/www/html/sistema2/admin/proc_mod_notas.php",
+		"/var/www/html/sistema2/admin/cons_estudiante.php",
+		"/var/www/html/sistema2/js/cons_profesor.js",
+		"/var/www/html/sistema2/paginas/cons_profesor.php",
+		"/var/www/html/sistema2/paginas/busqueda_consultas.php",
+		"/var/www/html/sistema2/js_admin/registrar.js",
+		"/var/www/html/sistema2/js_admin/modificar_notas.js",
+		"/var/www/html/sistema2/js/registrar_nota.js",
+		"/var/www/html/sistema2/paginas/reporte_profesor.php",
+		"/var/www/html/sistema2/admin/reg_usuario.php",
+		"/var/www/html/sistema2/admin/reg_seccion.php",
+		"/var/www/html/sistema2/admin/reg_profesor.php",
+		"/var/www/html/sistema2/admin/reg_periodo.php",
+		"/var/www/html/sistema2/admin/reg_nota.php",
+		"/var/www/html/sistema2/admin/reg_estudiante.php",
+		"/var/www/html/sistema2/admin/notas_docentes.php",
+		"/var/www/html/sistema2/includes/pie.php",
+		"/var/www/html/sistema2/admin/contenido.php",
+		"/var/www/html/sistema2/css/menu.styl",
+		"/var/www/html/sistema2/paginas/reporte_pdf.php",
+		"/var/www/html/sistema2/includes/menu.php",
+		"/var/www/html/sistema2/admin/reporte_profesor.php",
+		"/var/www/html/sistema2/paginas/mod_notas.php",
+		"/var/www/html/sistema2/includes/menu_prof.php",
+		"/var/www/html/sistema2/admin/reporte_estudiante2.php",
+		"/var/www/html/sistema2/admin/cons_estudiante_admin.php",
+		"/var/www/html/sistema2/includes/p_admin.php",
+		"/var/www/html/sistema2/includes/paginas.php",
+		"/var/www/html/sistema2/include.php",
+		"/var/www/html/sistema2/index2.php",
+		"/var/www/html/sistema2/admin.php",
+		"/var/www/html/sistema2/paginas/recuperar_clave",
+		"/var/www/html/sistema2/js/registrar.js",
+		"/var/www/html/sistema2/ingresar.php",
+		"/var/www/html/yii/proveedor/protected/views/layouts/main.php",
+		"/var/www/html/yii/proveedor/protected/config/database.php",
+		"/var/www/html/yii/proveedor/protected/views/site/pages/about.php",
+		"/var/www/html/yii/proveedor/protected/views/site/index.php",
+		"/var/www/html/yii/proveedor/protected/views/site/contact.php",
+		"/var/www/html/yii/proveedor/protected/models/ContactForm.php",
+		"/var/www/html/yii/proveedor/protected/views/proveedor/index.php",
+		"/var/www/html/yii/proveedor/protected/views/proveedor/_view.php",
+		"/var/www/html/yii/proveedor/protected/config/main.php",
+		"/var/www/html/yii/proveedor/protected/views/proveedor/admin.php",
+		"/var/www/html/yii/framework/gii/generators/crud/templates/default/index.php",
+		"/var/www/html/sistema2/pdf/fpdf.php",
+		"/var/www/html/sistema2/paginas/reporte_estudiante_pdf.php",
+		"/var/www/html/sistema2/paginas/reg_nota.php",
+		"/var/www/html/sistema2/paginas/notas_docentes.php",
+		"/var/www/html/sistema2/paginas/proc_cons_profesor.php",
+		"/var/www/html/sistema2/index.php",
+		"/var/www/html/sistema2/includes/menu_estu.php",
+		"/var/www/html/sistema2/registrar.php",
+		"/var/www/html/sistema2/css/menu.css",
+		"/var/www/html/sistema2/paginas/contenido.php",
+		"/var/www/html/sistema2/include2.php",
+		"/var/www/html/sistema2/include1.php",
+		"/var/www/html/sistema2/paginas/reg_estudiante.php",
+		"/var/www/html/sistema2/paginas/reg_usuario.php",
+		"/var/www/html/curso_js/formulario.html",
+		"/var/www/html/curso_js/textareas.html",
+		"/var/www/html/sistema/paginas/proc_estudiante.php",
+		"/media/megavox/3CB07244B07204A4/CURSOS/JQUERY/archivos_base_jquery/proyectos/login/index.html",
+		"/var/www/html/curso_js/onblur.html",
+		"/var/www/html/sistema3/paginas/cons_profesor.php",
+		"/var/www/html/sistema3/paginas/reporte_profesor.php",
+		"/var/www/html/sistema/paginas/cons_estudiante.php",
+		"/var/www/html/curso_js/js/email.js",
+		"/var/www/html/curso_js/val_email.html",
+		"/var/www/html/curso_js/js/opciones.js",
+		"/var/www/html/sistema/paginas/reg_estudiante.php",
+		"/var/www/html/proyecto2/paginas/cons_estudiante.php",
+		"/var/www/html/php/procesa2.php",
+		"/var/www/html/curso_js/js/validar_ced.js",
+		"/home/megavox/Documentos/arboles.cpp",
+		"/var/www/html/proyecto2/paginas/mod_estudiante.php",
+		"/var/www/html/proyecto2/paginas/reg_estudiante.php",
+		"/var/www/html/mod_estudiante.html",
+		"/var/www/html/sistema2/css/registrar.styl",
+		"/var/www/html/mejorandola/css/grid.css",
+		"/var/www/html/mejorandola/css/puls4.css",
+		"/var/www/html/sistema2/paginas/proc_seccion.php",
+		"/var/www/html/sistema2/paginas/reg_periodo.php",
+		"/var/www/html/js_clases/objeto_clase2.html",
+		"/var/www/html/sistema2/paginas/proc_profesor.php",
+		"/var/www/html/sistema2/paginas/proc_admon.php",
+		"/var/www/html/sistema2/paginas/proc_usuario.php",
+		"/var/www/html/sistema2/paginas/buscar_nomina.php",
+		"/var/www/html/sistema2/paginas/proc_estudiante.php",
+		"/var/www/html/sistema2/paginas/reg_profesor.php",
+		"/var/www/html/sistema2/paginas/archivo2.php",
+		"/var/www/html/sistema2/paginas/archivo.php",
+		"/var/www/html/sistema2/paginas/reg_seccion.php",
+		"/var/www/html/mejorandola/css/puls4.styl",
+		"/var/www/html/jquery_clases/clase1.html",
+		"/var/www/html/programacion_basica/codigo.js",
+		"/var/www/html/programacion_basica/clase1.html",
+		"/var/www/html/js_clases/9clase.html",
+		"/var/www/html/js_clases/8clase.html",
+		"/var/www/html/js_clases/7clase.html",
+		"/var/www/html/js_clases/6clase.html",
+		"/var/www/html/js_clases/14clase.html",
+		"/var/www/html/js_clases/13clase.html",
+		"/var/www/html/js_clases/12clase.html",
+		"/var/www/html/js_clases/11clase.html",
+		"/var/www/html/js_clases/1clase.html",
+		"/var/www/html/js_clases/5clase.html",
+		"/var/www/html/js_clases/14-bclase.html",
+		"/var/www/html/js_clases/10clase.html",
+		"/var/www/html/js_clases/2clase.html",
+		"/var/www/html/js_clases/3clase.html",
+		"/var/www/html/js_clases/4clase.html",
+		"/var/www/html/sistema2/tiempo.php",
+		"/var/www/html/sistema/paginas/cons_profesor.php",
+		"/var/www/html/sistema2/radio.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"//$",
+			"f_registro",
+			"cedula",
+			"estudiante",
+			"paginas",
+			"pagina",
+			"\"",
+			"echo",
+			",",
+			"codigoHTML",
+			"\"",
+			"echo",
+			"$codigoHTML.=",
+			"\"",
+			"echo",
+			"Materia",
+			"materia",
+			"busqueda",
+			"f_clear",
+			"f_registro",
+			"mensaje",
+			"						$(\"#",
+			"value",
+			"a",
+			"espacio",
+			"document.write",
+			"tabla",
+			"gdit",
+			"xs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/registrar.js",
+					"settings":
+					{
+						"buffer_size": 3796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3196,
+								3196
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ingresar.php",
+					"settings":
+					{
+						"buffer_size": 3926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								870,
+								870
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 220.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "registrar.php",
+					"settings":
+					{
+						"buffer_size": 5235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3375,
+								3375
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "recordar.php",
+					"settings":
+					{
+						"buffer_size": 1647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								495
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 176.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "admin/proc_cons_estudiante.php",
+					"settings":
+					{
+						"buffer_size": 1059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/recordar.js",
+					"settings":
+					{
+						"buffer_size": 1335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								959,
+								959
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 862.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "includes/encabezado.php",
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/menu.styl",
+					"settings":
+					{
+						"buffer_size": 7838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4323,
+								4323
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4576.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/html/biblioteca/procesa_busqueda.php",
+					"settings":
+					{
+						"buffer_size": 3462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 374.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/var/www/html/biblioteca/buscar.html",
+					"settings":
+					{
+						"buffer_size": 1946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1691,
+								1691
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 664.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true
+}
