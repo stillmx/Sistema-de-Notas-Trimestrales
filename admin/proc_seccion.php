@@ -1,55 +1,65 @@
 <?php 
 header("Content-type: text/html; charset=utf8");
 require_once "includes/db.php";
+$nombreArchivo = $_FILES['archivo']['name'];
 $tipoArchivo = $_FILES['archivo']['type'];
 $archivo = $_FILES['archivo']['tmp_name'];
 $enviar = $_POST['enviar'];
 $_SESSION["usuario_enviar"]= $enviar; 
 
-	if($tipoArchivo !='text/csv')
-   		{
-   			echo "<script type=\"text/javascript\">alert(\"EL ARCHIVO CARGADO ES INVALIDO\");history.go(-1);</script>";
-   			exit();
-   		}
-
+if($tipoArchivo !='text/csv' || $nombreArchivo !='inscripcion.csv'){
+	echo "<script type=\"text/javascript\">alert(\"EL ARCHIVO CARGADO ES INVALIDO\");history.go(-1);</script>";
+	exit();
+}
 //:::::::::::Validando la sesion:::::::::::::::
 if(isset($_SESSION['usuario_enviar'])) {
-	$contando=0;
+
 	//::::::::::Leyendo archivo CSV:::::::::::::
     $abrir = fopen($archivo,"r");
     
     //$alternar=true;
+    $cont=0;
+    $consulta = ($conexion);
+	if(!$consulta) {
+    echo "Error, no se pudo consultar la base de datos\n". mysql_error();
     while (($fileop = fgetcsv($abrir,0,";")) !== false){
-	  $cod_estu = $fileop[0];
-	  
-	  $cod_mat = $fileop[1];
-	  //$porc_mat = $fileop[3];
-	  $cod_prof = $fileop[2];
-	  $cod_comp = $fileop[3];
-	  $dato = mysql_query("SELECT cod_per FROM periodo ORDER BY cod_per DESC LIMIT 1");
-	  $dato2= mysql_fetch_assoc($dato);
-	  $cod_per=$dato2['cod_per'];
-	  
-	  //$nota = $fileop[5];
-	  //$cod_comp=1;		  
-	//$s_sql="SELECT * FROM notas WHERE cod_estu = '$cod_estu' AND cod_comp='$cod_comp' AND cod_per='$cod_per' AND cod_prof='$cod_prof'";
-	//$result_query = mysql_query($s_sql);
-	$sql="INSERT INTO notas (cod_prof, cod_estu, cod_per, cod_mat, cod_comp) VALUES ($cod_prof, $cod_estu, '$cod_per', '$cod_mat', $cod_comp)";
-	$nueva_registro = mysql_query($sql);
-		if(mysql_affected_rows()>0) 
-			$contando++;	
-	}//WHILE DEL ARCHIVO     
-         //::::::::::Mostrar DB :::::::::::
-    $sql= "select * FROM estudiante, notas, materia, profesor WHERE estudiante.cod_estu = notas.cod_estu and notas.cod_comp = materia.cod_comp and profesor.cod_prof=notas.cod_prof ORDER BY notas.cod_estu DESC LIMIT $contando";
-	$consulta = mysql_query($sql,$conexion);
-	if (!$consulta) {
-		die("Error, no se pudo consultar la base de datos\n");  
+		$cod_estu = $fileop[0];
+		$cod_mat = $fileop[1];
+	  	$cod_prof = $fileop[2];
+	  	$cod_comp = $fileop[3];
+	  	$dato = mysql_query("SELECT cod_per FROM periodo ORDER BY cod_per DESC LIMIT 1");
+	  	$dato2= mysql_fetch_assoc($dato);
+	  	$cod_per=$dato2['cod_per'];
+	  	$inscripcion = mysql_query("SELECT * FROM notas WHERE cod_estu ='$cod_estu' 
+	  	AND cod_prof='$cod_prof' AND cod_comp='$cod_comp' AND cod_per='$cod_per'");
+	  			
+	  	if(mysql_num_rows($inscripcion)==0){
+			$cont++;
+			
+		 	$inscripcion=mysql_query("INSERT INTO notas (cod_prof, cod_estu, cod_per,
+		 	cod_mat, cod_comp) VALUES ($cod_prof, $cod_estu, '$cod_per', '$cod_mat', 
+		 	$cod_comp)");
+		}
 	}
-	echo "<script type=\"text/javascript\">alert(\"SE HA REGISTRADO CON EXITO $contando Inscripciones\");history.go(-1);</script>";
+
+	}	 	
 	
-}else {
+	if($cont != 0){
+		if($cont ==1){
+			echo "<script type=\"text/javascript\">alert(\"SE HA REGISTRADO: $cont Inscripción\");history.go(-1);</script>";
+		}
+		echo "<script type=\"text/javascript\">alert(\"SE HA REGISTRADO: $cont Inscripciones\");history.go(-1);</script>";
+	}
+	else{
+		echo "<script type=\"text/javascript\">alert(\"EL REGISTRO DE INSCRIPCIONES YA EXISTE!\");history.go(-1);</script>";				 
+	}               
+	
+}
+else {
 	echo "<script type=\"text/javascript\">alert(\"USTED NO ESTA AUTORIZADO PARA INGRESAR\");</script>";
     echo" <SCRIPT LANGUAGE='javascript'>location.href = 'index.php';</SCRIPT>";
-    } 
+} 
+
 mysql_close($conexion);
 ?>
+	

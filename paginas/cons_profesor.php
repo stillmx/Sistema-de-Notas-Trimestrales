@@ -1,3 +1,5 @@
+<script src="./js/jquery-1.11.2.min.js"></script>
+
 <script type="text/javascript">
 $(document).ready(function(e){
 	$.ajax('./paginas/busqueda_consultas.php',{data:{oper:'materias'}, type:'POST', dataType:'json', 
@@ -7,9 +9,7 @@ $(document).ready(function(e){
 					$("#cod_comp").append($("<option>", e));
 				});
 		},
-		error:function(jqXHR, textStatus, errorThrow){
-			alert("Ocurrio un error en el sistema al consultar las materias")
-		} 
+		
 	});
 	$("#cod_comp", $("#form_materia")).bind("change", function(e){
 		var _t=$(this);
@@ -47,12 +47,18 @@ $(document).ready(function(e){
 					}
 				});
 			});
-
+			$("#cod_per", $("#form_materia")).on('change', function(e){
+				var this_val=$.trim($(this).val());
+				$(":submit").attr({disabled:'disabled'});
+				if(this_val=='')
+					return true;
+				$(":submit").removeAttr('disabled');
+			});
 });
 </script>
 <center>
 	<form action="include.php?pagina=reporte_profesor" method="POST" name="Registro" id="form_materia">
-		<h4>Consultar Profesores</h4>
+		<h4>Consultar Materias</h4>
 		<div class="profesor">
 			<select class="campos" name="cod_comp" id="cod_comp">
 				<option value="">Materias...</option>

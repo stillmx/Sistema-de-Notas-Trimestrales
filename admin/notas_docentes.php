@@ -1,3 +1,44 @@
+<script src="./js/jquery-1.11.2.min.js"></script>
+<script src="./js/jquery.validate.js"></script>
+
+<script>
+	$(document).ready(function() {
+		
+		$(':text.validate_nota',$('#notas')).bind('blur',function(e){
+			e.preventDefault();
+			e.stopPropagation();
+			var _t = $(this);
+			var n = $(_t).val();
+			console.log("aq");
+			if(n>=0 && n<=20 && n.trim()!=''){
+				return false;
+			}else{
+				$(_t).val('');
+				$(_t).focus();
+				alert("Debe elegir una nota entre 0 y 20");
+			}
+			
+		});
+		$('#porcentaje',$('#notas')).bind('blur',function(){
+			
+			var p = $('#porcentaje').val();
+			
+			if(p>1 && p<=100)
+				return false;
+			else	{
+				alert("Debe elegir una % entre 0 y 100");
+			$('#porcentaje').val('');
+		}
+		});
+		var vf_notas=$("#notas").validate({
+			rules:{porcentaje:{required:true, range:[1,100]}},
+			messages:{
+				porcentaje:{required:"Es obligatorio el %", 
+				range:"Ingrese un valor de 1 a 100"}
+			}
+		});
+	});
+</script>
 <form name="form_notas" action="./include.php?admin=guardar_notas" method="post">
 <?php
 if(isset($_POST['profesor'], $_POST['materia']) && !empty($_POST['profesor'])  && !empty($_POST['materia']) ){
@@ -46,7 +87,7 @@ if(isset($_POST['profesor'], $_POST['materia']) && !empty($_POST['profesor'])  &
 				echo "<div class='datos'><b>Cédula: </b>".$fila['ced_prof']."<b>Nombre y Apellido: </b>
 				".$fila['nom_prof']."<b>Materia: </b>".$fila['nom_mat']."<b>U.C: </b>
 				".$fila['uc_mat']."<b>Porc. Materia: </b><input type='text' class='campos' 
-				name='porcentaje' style='width:50px;' id='porcentaje' value='".$fila['porc_mat']."'>"."</div>";
+				name='porcentaje' maxlength='3' style='width:50px;' id='porcentaje' value='".$fila['porc_mat']."'>"."</div>";
 				
 				
 				echo"<br>";
@@ -61,11 +102,12 @@ if(isset($_POST['profesor'], $_POST['materia']) && !empty($_POST['profesor'])  &
 				
 				$print_header=true;
 			}
+			
 			echo "<div class='datos'><div class='$estilo'><div class='codigo'>"
 			.$fila['cod_estu']."</div><div class='cedula'>".$fila['ced_estu']
 			."</div><div class='apellido'>".$fila['nom_estu']
-			."</div><input class='campos' id='nota' type='text' style='width:50px;' 
-			value='' maxlength='2' name='nota[".$fila['cod_estu']."]'></div></div>";
+			."</div><input class='campos validate_nota' id='nota' type='text' style='width:50px;' 
+			value='' maxlength='2' name='nota[".$fila['cod_estu']."]' required></div></div>";
 			$contador++;
 		}
 		echo "<input type='submit' name='enviar' class='boton' id='enviar' value='Registrar'>";

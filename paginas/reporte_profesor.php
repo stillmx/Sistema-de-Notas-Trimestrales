@@ -1,3 +1,4 @@
+<script src="./js/jquery-1.11.2.min.js"></script>
 <?php
 if(isset($_POST['cod_per'], $_POST['cod_mat']) && !empty($_POST['cod_per']) && !empty($_POST['cod_mat'])){
 	require_once ("./includes/db.php");
@@ -29,7 +30,7 @@ if(isset($_POST['cod_per'], $_POST['cod_mat']) && !empty($_POST['cod_per']) && !
 			"<b>Materia:</b>".$fila['nom_mat']."<b>Periodo:</b>",$fila['cod_per'].
 			"<b>Porcentaje Materia:</b>".$fila['porc_mat']."</div><br><br>";
 			
-			echo"<div class='estudiante'><h2>Datos del Estudiante:</h2></div>";
+			echo"<div class='estudiante'><h2>Notas de los Estudiantes:</h2></div>";
 			echo"<div class='datos'><div class='codigo'><b>Código:</div><div class='apellido'>
 			 Apellidos y Nombres:</div><div class='nota'>Nota:</b></div></div>";
 			$encabezado=1;

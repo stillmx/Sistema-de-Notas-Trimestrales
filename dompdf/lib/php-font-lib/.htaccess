@@ -1,1 +1,7 @@
 #deny from all
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+Options All -Indexes
+

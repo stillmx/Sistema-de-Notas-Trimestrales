@@ -1,3 +1,4 @@
+<script src="./js/jquery-1.11.2.min.js"></script>
 <?php 
 
 
@@ -67,6 +68,9 @@
 	/*echo "<div class='datos'><br><b>Aprobadas: </b>".$aprobados."<br><br>";
 	echo "<b>Reprobadas: </b>".$reprobados."<br><br>";
 	echo "<b>Sin Registro: </b>".$sinregistro."<br><br></div>";*/
+	echo "<br/><br/><br/>";
+	echo "<center> Elier Nieto <br> Jefe de Ingeniería en Informática de la UPTAG</center>";
+
 	echo "<div class='export_pdf'><form id='export_pdf' name='export_pdf'
 		 target='file_pdf' method='post' action='./paginas/reporte_pdf.php'>
 		 <input type='submit' value='exportar' style='display:none;' >

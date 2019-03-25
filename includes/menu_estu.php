@@ -31,14 +31,12 @@
 			if(isset($codigo_2))
 		echo"<li><a href='include.php?pagina=cons_estudiante2'>Código " .$codigo_2."</a></li>";?>
 	</ul></li>
-<!--	
-<ul>
-    
-	<li class="nivel1"><a href="#">Consultar</a>
-	<ul>
-		<li><a href="include.php?pagina=cons_estudiante">Código <?php echo $_SESSION['id_usuario']; ?></a></li>
-		 <li><a href="include.php?pagina=cons_estudiante2">Código <?php echo $codigo_2; ?></a></li> -->
-	</ul>
+	
+	<li class="nivel1"><a href="#">Modificar</a>
+		<ul>
+			<li><a href="include.php?pagina=cambiar_clave_usuario">Contraseña</a></li>
+			<li><a href="include.php?pagina=cambiar_pregunta_usuario">Pregunta Secreta</a></li>
+		</ul>
 	</li>
 
 	

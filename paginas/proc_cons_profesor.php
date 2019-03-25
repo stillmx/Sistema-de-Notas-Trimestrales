@@ -1,6 +1,6 @@
 <?php 
 require_once ("../includes/db.php");
-$response_json=array("num_rows"=>0,"success"=>false, "info"=>array(), "mensaje"=>'Fatan datos para procesar evento');
+$response_json=array("num_rows"=>0,"success"=>false, "info"=>array(), "mensaje"=>'');
 if(isset($_POST['profesor']) && !isset($_POST['materia']) && !empty($_POST['profesor'])){
 	$filtro=is_numeric(substr($_POST['profesor'],0,1))?"p.cod_prof=".$_POST['profesor']:"p.ced_prof='".$_POST['profesor']."'";
 	$sql="SELECT p.cod_prof, p.nom_prof FROM profesor AS p WHERE ".$filtro;

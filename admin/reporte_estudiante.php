@@ -1,6 +1,7 @@
+<script src="./js/jquery-1.11.2.min.js"></script>
 <?php 
+require_once ("./includes/db.php");
 if(isset($_POST['estudiante'], $_POST['periodo']) && !empty($_POST['estudiante'])){
-	require_once ("./includes/db.php");
 			$filtro=is_numeric(substr($_POST['estudiante'],0,1))?"e.cod_estu="
 			.$_POST['estudiante']:"e.ced_estu='".$_POST['estudiante']."'";
 	
@@ -56,6 +57,8 @@ if(isset($_POST['estudiante'], $_POST['periodo']) && !empty($_POST['estudiante']
 			$reprobados++;
 		}
 	}
+	echo "<br/><br/><br/>";
+	echo "<center> Elier Nieto <br> Jefe de Ingeniería en Informática de la UPTAG</center>";
 	// echo "<div class='datos'><br><b>Aprobadas: </b>".$aprobados."<br><br>";
 	// echo "<b>Reprobadas: </b>".$reprobados."<br><br>";
 	// echo "<b>Sin Registro: </b>".$sinregistro."<br><br></div>";

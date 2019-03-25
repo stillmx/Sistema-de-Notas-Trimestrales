@@ -11,7 +11,7 @@
 <body>
 	
 	<center>
-		<form action="include.php?admin=notas_docentes" method="POST" name="Registro">
+		<form id="form_admin" action="include.php?admin=notas_docentes" method="POST" name="Registro">
 			<h4>Registrar Notas de Estudiantes</h4>
 				<input type="hidden" name="oper" id="oper" value="buscar_nomina">
 				<input class="campos" name="profesor" id="profesor" type="text" maxlength="10" size="15" placeholder="C.I. Profesor">

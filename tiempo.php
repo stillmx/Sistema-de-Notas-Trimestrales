@@ -37,7 +37,7 @@ $inactivo = 10;
      	echo "<script type=\"text/javascript\">alert(\"SU TIEMPO FINALIZADO\");</script>";
 		
 		//echo "<script language='javascript'> location.reload();</script>";
-		echo "<script language='javascript'>window.location='ingresar.php';</script>";
+		echo "<script language='javascript'>window.location='./';</script>";
 		//header('Location: ingresar.php');
 		//::::::::::::::::::::sino, se actualiza el tiempo de la sesión 
     }else { 

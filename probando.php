@@ -3,47 +3,70 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script src="./js/jquery-1.11.2.min.js"></script>
-	
+	<script src="js/jquery-1.11.2.min.js"></script>
 </head>
 <body>
-	<script type="text/javascript">
-	var expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-	var expr2 = /^([0-9]+){11}$/;
-		$(document).ready(function() {
-		
-			
-			$("#telef","#f_registro").blur(function()
-					
-				var telef = $("#telf").val();
-				var email = $("#email").val();
+	<form action="#" method="post">
+		<input id="estudiante" type="text" name="estudiante" value="2735">
+		<input type="text" name="periodo" value="2016-1">
+		<input type="text" name="materia" value="6052">
+		<input id="boton" type="submit" name="boton" value="Boton	">
+	</form>
 
-				if(telef =="" || !expr2.test(telef)){
-					$("#mens_telf").fadeIn("slow");
-					return false;
-				}
-				else{
-					$("#mens_telf").fadeOut("slow");
-				
-					if(email=="" || !expr.test(email)){
-						$("#mens_email").fadeIn("slow");
-						return false;
-					}
-					else{
-						$("#mens_email").fadeOut("slow");
-					}
-				}
-			});
+	<script>
+	$(document).ready(function() {
+		$('input').css({
+			'color':'green',
+			'background':'yelow',
+			'padding':'5px'
 		});
+		$('#estudiante').val(3527);
+	});
+		
+
+
 	</script>
-	<h4>Formulario de Registro</h4>
-		<form id="f_registro" action="#" method="post">
-		<input class="campos" name="cedula" id="cedula" type="text" placeholder="Nº Cédula" ><br>
-		<input class="campos" id="telf" name="telefono" type="text" placeholder="Nº Teléfono" ><br>
-		<div id="mens_telf"> El número es invalido </div>
-		<input class="campos" id="email" name="email" type="text" size="40" placeholder="Correo Eléctronico" ><br>
-		<div id="mens_email"> El correo es invalido </div>
-		<input class="boton" id="boton" type="submit" name="enviar" value="Enviar"/>
-		</form>
 </body>
 </html>
+
+
+<?php
+//$periodo= $_POST["periodo"];
+
+require_once ("includes/db.php");
+	if(isset($_POST['estudiante'], $_POST['periodo']) 
+		&& (empty($_POST['materia']) && !empty($_POST['estudiante']) && !empty($_POST['periodo']))) {
+
+		$filtro="e.cod_estu='".$_POST['estudiante']."'";
+		$sql= mysql_query("SELECT e.cod_estu, n.cod_per, e.nom_estu  
+		FROM estudiante AS e LEFT OUTER JOIN notas AS n ON n.cod_estu=e.cod_estu 
+		WHERE ".$filtro." GROUP BY n.cod_per ");
+		
+		
+		while($fila = mysql_fetch_assoc($sql)){
+			echo $fila["nom_estu"];
+			echo $fila["cod_per"];
+		}
+	
+	}
+    
+	elseif(isset($_POST['estudiante'], $_POST['periodo'], $_POST['materia']) 
+		&& (!empty($_POST['estudiante']) && !empty($_POST['periodo']) 
+		&& !empty($_POST['materia']))) {
+
+
+		$filtro="e.cod_estu='".$_POST['estudiante']."'";
+		$sql= mysql_query("SELECT e.cod_estu, n.cod_per, e.nom_estu, p.des_per, n.cod_comp, m.nom_mat, n.cod_mat 
+			FROM estudiante AS e LEFT OUTER JOIN notas AS n ON n.cod_estu=e.cod_estu 
+			LEFT OUTER JOIN materia AS m ON n.cod_comp=m.cod_comp
+			LEFT OUTER JOIN periodo AS p ON n.cod_per=p.cod_per 
+			WHERE n.cod_per='".$_POST["periodo"]."' AND n.cod_comp='".$_POST["materia"]."' AND ".$filtro." GROUP BY n.cod_mat");
+		while($fila = mysql_fetch_assoc($sql)){
+			
+			echo $fila["nom_mat"]." ";
+			echo $fila["cod_mat"];
+		}
+	}
+	else
+		echo"Esta vacio";
+?>

@@ -1,5 +1,5 @@
 <?php
-	$conexion = mysql_connect("localhost", "root", "still001mx");
+	$conexion = mysql_connect("localhost", "pnfi", "123456");
 	mysql_select_db('notas');
 	mysql_set_charset('utf8',$conexion);
 if($conexion)

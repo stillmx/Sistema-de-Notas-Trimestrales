@@ -24,7 +24,7 @@ if(isset($_POST['oper']) && !empty($_POST['oper']) && in_array($_POST['oper'], $
 		case 'materia':
 			if(!isset($_POST['cod_mat'], $_POST['cod_estu']) || empty($_POST['cod_mat']) || empty($_POST['cod_estu']))
 				break;
-			$sql="SELECT n.cod_mat, n.cod_comp, m.nom_mat FROM notas AS n LEFT OUTER JOIN materia AS m ON m.cod_comp=n.cod_comp WHERE n.cod_mat='".$_POST['cod_mat']."' AND n.cod_estu=".$_POST['cod_estu']." GROUP BY n.cod_mat";
+			$sql="SELECT n.cod_mat, n.cod_comp, m.nom_mat FROM notas AS n LEFT OUTER JOIN materia AS m ON m.cod_comp=n.cod_comp WHERE n.cod_mat='".$_POST['cod_mat']."' AND n.cod_estu=".$_POST['cod_estu']." GROUP BY n.cod_mat, n.cod_comp";
 			$consulta= mysql_query($sql, $conexion) or die($sql);
 			if(!$consulta){
 				echo"Error de Consulta", mysql_errno(), mysql_error();
@@ -107,7 +107,7 @@ if(isset($_POST['oper']) && !empty($_POST['oper']) && in_array($_POST['oper'], $
 			$response_json["debug"]=$_POST;
 			if(!isset($_POST['cod_comp']) || empty($_POST['cod_comp']))
 				break;
-			$sql="SELECT n.cod_comp, n.cod_mat, m.nom_mat, m.uc_mat FROM notas AS n LEFT OUTER JOIN materia AS m ON m.cod_comp=n.cod_comp WHERE n.cod_prof=".$_SESSION['id_usuario']." AND n.cod_comp='".$_POST['cod_comp']."' GROUP BY n.cod_mat";
+			$sql="SELECT n.cod_comp, n.cod_mat, m.nom_mat, m.uc_mat FROM notas AS n LEFT OUTER JOIN materia AS m ON m.cod_comp=n.cod_comp WHERE n.cod_prof=".$_SESSION['id_usuario']." AND n.cod_comp='".$_POST['cod_comp']."' GROUP BY n.cod_mat, n.cod_comp";
 			$consulta= mysql_query($sql, $conexion) or die($sql);
 			if(!$consulta){
 				echo"Error de Consulta", mysql_errno(), mysql_error();
@@ -123,7 +123,7 @@ if(isset($_POST['oper']) && !empty($_POST['oper']) && in_array($_POST['oper'], $
 		break;
 		case 'materias':
 			$sql="SELECT m.cod_comp, m.nom_mat, m.uc_mat FROM materia AS m LEFT OUTER JOIN notas AS n ON m.cod_comp=n.cod_comp WHERE n.cod_prof=".$_SESSION['id_usuario']."  ORDER BY nom_mat ASC";
-			$sql="SELECT n.cod_comp, n.cod_mat, m.nom_mat, m.uc_mat FROM notas AS n LEFT OUTER JOIN materia AS m ON m.cod_comp=n.cod_comp WHERE n.cod_prof=".$_SESSION['id_usuario']." GROUP BY n.cod_comp";
+			$sql="SELECT n.cod_comp, n.cod_mat, m.nom_mat, m.uc_mat FROM notas AS n LEFT OUTER JOIN materia AS m ON m.cod_comp=n.cod_comp WHERE n.cod_prof=".$_SESSION['id_usuario']." GROUP BY n.cod_comp, n.cod_mat";
 			$consulta= mysql_query($sql, $conexion) or die($sql);
 			if(!$consulta){
 				echo"Error de Consulta", mysql_errno(), mysql_error();

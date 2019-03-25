@@ -1,50 +1,32 @@
-<!-- Aqui comienza mi página web en html -->
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
-	<link rel="stylesheet" href="../css/menu.css" type="text/css" />
-	<title>Control de Notas Trimestrales PNFI</title>
-	
-</head>
-
-<body>
-	<div id='encabezado'>
-	<?php echo"<br>"."<table class='logo'><tr><td>
-	<img src='imagenes/pnfi.jpg'width='140' hight='80'></td><td><h2><b>Sistema de Notas Trimestrales PNFI - IUTAG</b>
-	</h2></td></tr></table>";
-	?>
-	</div>
-	<!-- Aqui esta la caja de autenticar-->
-
-	<div id='contenido'>
-	</div>
-	<div id='pie'>
-	<?php require ('../includes/pie.php');?>
-	</div>
 <?php
-require_once "../includes/db.php";
+require_once ("./includes/db.php");
+if(isset($_POST['estudiante']) && (!empty($_POST['estudiante']))){
 
-$cod = $_POST['codigo'];
-$nom = $_POST['nombres'];
-$ape = $_POST['apellidos'];
-$ced = $_POST['ced'];
-$fnac = $_POST['f_nac'];
-$tel1 = $_POST['cel_1'];
-$tel2 = $_POST['cel_2'];
-$nom_r = $_POST['nom_r'];
-$fing = $_POST['f_ing'];
-$insc = $_POST['inscripcion'];
-$mes = $_POST['mes1'];
-
-$s_sql="SELECT * FROM notas AS n WHERE !ISNULL(n.nota) AND n.cod_estu=$cod_estu AND n.cod_mat='".$cod_mat."' AND n.cod_per='".$cod_per."'";
-$result_query = mysql_query($s_sql, $conexion) or die($s_sql);
-if(mysql_num_rows($result_query)==1){
-	$query="UPDATE notas SET nota='".$nota."' WHERE !ISNULL(nota) AND cod_estu=".$cod_estu." AND cod_mat='".$cod_mat."' AND cod_per='".$cod_per."'";
-	$actualiza_nota = mysql_query($query, $conexion) or die($query);
-	$actualizo=mysql_affected_rows();
-	echo "<script type=\"text/javascript\">alert(\"LA NOTA DEL ESTUDIANTE ".$_POST['nombre']." SE ACTUALIZO CORRECTAMENTE\");history.go(-1);</script>";
-           //  echo $query,'<br/>';
+$sql= mysql_query("SELECT * FROM notas WHERE !ISNULL(nota) 
+	AND cod_estu='".$_POST["estudiante"]."' AND cod_mat='".$_POST["cod_mat"]."' 
+	AND cod_per='".$_POST["periodo"]."'");
+if(mysql_num_rows($sql)==1){
+	$sql= mysql_query("UPDATE notas SET nota='".$_POST['nota']."' WHERE !ISNULL(nota) AND cod_estu=".$_POST["estudiante"]." 
+	AND cod_mat='".$_POST["cod_mat"]."' AND cod_per='".$_POST["periodo"]."'"); 
+	
+	$sql= mysql_query("SELECT n.nota, e.nom_estu, m.nom_mat FROM estudiante AS e 
+		LEFT OUTER JOIN notas AS n ON e.cod_estu=n.cod_estu LEFT OUTER JOIN materia AS m
+		ON n.cod_comp=m.cod_comp WHERE n.cod_estu=".$_POST['estudiante']." 
+		AND n.cod_mat='".$_POST['cod_mat']."' AND n.cod_per='".$_POST['periodo']."'");
+	while ($fila=mysql_fetch_assoc($sql)) {
+		echo "<script type=\"text/javascript\">alert(\"LA NOTA DEL ESTUDIANTE ".$fila['nom_estu']." EN LA MATERIA: ".$fila['nom_mat']." SE ACTUALIZO A ".$fila['nota']." PUNTOS\");location.href='include.php?admin=mod_notas';</script>";
+    
+	}
+	       
 }else
-	echo "<script type=\"text/javascript\">alert(\"NO EXISTE REGISTRO DE NOTA DEL ESTUDIANTE ".$nom_estu."\");history.go(-1);</script>";         
+	
+	echo "<script type=\"text/javascript\">alert(\"NO EXISTE REGISTRO DE NOTA, DEL ESTUDIANTE ".$_POST['nombre']."\");history.go(-1);</script>";         
+
+}
+$consulta= ($conexion) or die($conexion);
+		if(!$consulta){
+			echo"Error de Consulta", mysql_errno(), mysql_error();
+			exit;
+		}
 mysql_close($conexion);
 ?>

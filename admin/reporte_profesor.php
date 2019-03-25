@@ -1,3 +1,4 @@
+<script src="./js/jquery-1.11.2.min.js"></script>
 <?php
 if(isset($_POST['cod_prof'], $_POST['cod_per'], $_POST['cod_mat']) && !empty($_POST['cod_prof'])  
 	&& !empty($_POST['cod_per']) && !empty($_POST['cod_mat'])){
@@ -5,8 +6,8 @@ if(isset($_POST['cod_prof'], $_POST['cod_per'], $_POST['cod_mat']) && !empty($_P
 	$sql="SELECT n.cod_prof, p.ced_prof, p.nom_prof, n.cod_estu, e.nom_estu, n.nota, m.nom_mat, 
 	n.cod_per, n.porc_mat FROM notas AS n LEFT OUTER JOIN estudiante AS e ON e.cod_estu=n.cod_estu 
 	LEFT OUTER JOIN profesor AS p ON p.cod_prof=n.cod_prof LEFT OUTER JOIN materia AS m 
-	ON m.cod_comp=n.cod_comp WHERE n.cod_mat='".$_POST['cod_mat']."' AND n.cod_per='".$_POST['cod_per'].
-	"' AND n.cod_prof=".$_POST['cod_prof']." ORDER BY e.nom_estu";
+	ON m.cod_comp=n.cod_comp WHERE n.cod_mat='".$_POST['cod_mat']."' AND n.cod_per='"
+	.$_POST['cod_per'].	"' AND n.cod_prof=".$_POST['cod_prof']." ORDER BY e.nom_estu";
 	$consulta= mysql_query($sql, $conexion) or die($sql);
 	if(!$consulta){
 		echo"Error de Consulta", mysql_errno(), mysql_error();
@@ -30,7 +31,7 @@ if(isset($_POST['cod_prof'], $_POST['cod_per'], $_POST['cod_mat']) && !empty($_P
 			"<b>Materia:</b>".$fila['nom_mat']."<b>Periodo:</b>",$fila['cod_per'].
 			"<b>Porcentaje Materia:</b>".$fila['porc_mat']."</div><br><br>";
 			
-			echo"<div class='estudiante'><h2>Datos del Estudiante:</h2></div>";
+			echo"<div class='estudiante'><h2>Notas de los Estudiantes:</h2></div>";
 			echo"<div class='datos'><div class='codigo'><b>Código:</div><div class='apellido'>
 			 Apellidos y Nombres:</div><div class='nota'>Nota:</b></div></div>";
 			$encabezado=1;

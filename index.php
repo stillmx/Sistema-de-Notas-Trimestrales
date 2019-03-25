@@ -1,47 +1,29 @@
-<?php
-session_start();
-require_once ('includes/db.php');
-//::::::::: "limpiamos" los campos del formulario de posibles códigos maliciosos:::::::::: 
-$usuario = mysql_real_escape_string($_POST['usuario']); 
-$clave = mysql_real_escape_string($_POST['pass']); 
-//::::::::::Encriptamos clave::::::::         
-$usuario = $_POST['usuario'];
-$mx='$stelmas$%/=zeck001mx$/';
-$clave = $mx.sha1(md5($_POST['pass']));
-//:::::::::Consultando Base de Datos::::::::::::
-$sql= "SELECT usuario,clave,tipo_usuario, cod_estu, cod_prof FROM usuario WHERE usuario = '$usuario' and clave = '$clave' ";
-$conecta = mysql_query($sql,$conexion);
+<div id="contenedor">
+	<div id='encabezado'>
+		<?php require ('includes/encabezado.php');?>
+	</div>
 
-if (!$conecta) {
-    echo "Error, no se pudo consultar la base de datos\n". mysql_error();
-    exit;
-}
-//::::::::::Comparando Datos:::::::::::
-if($fila = mysql_fetch_assoc($conecta)){
-	$tipo_usuario=$fila['tipo_usuario'];
-	
-//::::::::::Creamos la Sesion::::::::::
-$_SESSION['usuario_entrar']= $usuario;
-$_SESSION['pass']= $clave;
-$_SESSION['tipo']= $tipo_usuario;
-$_SESSION['id_usuario']=($fila["cod_estu"]==0)?$fila["cod_prof"]:$fila["cod_estu"];
-//:::::::::::Validando la sesion:::::::::::::::
-if(isset($_SESSION['usuario_entrar'])) {
-	//$_SESSION["tiempo"]= time();
-	$_SESSION["ultimoAcceso"]= date("Y-n-j H:i:s");
-	
-}
-/*if ($tipo_usuario==1){
-	header ('Location: include1.php');
-}
-else{
-	header ('Location: include2.php');
-}*/
-	header ('Location: include.php');    
-}else {
-    
-			header('Location: error.php');
-		}
- 
-mysql_close($conexion);
-?>
+	<!-- Aqui esta la caja de autenticar-->
+	<div id="p_inicio">
+		<br>
+		<center>
+
+			<form class="form_css" action="index1.php" method="post" name="ingreso" >
+				<h4><b>Ingresar al Sistema de Notas</b></h4>
+				<input id="usuario" class="campos ingreso" type="text" name="usuario" maxlength="20" size="20" placeholder="Usuario" required><br>
+				<input id="contraseña" class="campos ingreso" type="password" name="pass" maxlength="20" size="20" placeholder="Contraseña" required><br>
+				<!-- <input class="campos ingreso" type="text" name="captcha" maxlength="5" size="20" placeholder="Ingresa el código" required/>
+				<center><img src="captcha/captcha.php" border="0" width="200"/></center> -->
+				<input class="boton" type="submit" name="enviar" value="Entrar"><br>
+			</form>
+
+			<div class="registrarse">
+				<button class="registrar" onclick=location="form_registrar.php">Registrarse</button>
+				<button class="recordar" onclick=location="form_recuperar.php">Recordar Contraseña</button>
+			</div>
+		</center>
+	</div>
+	<div id='pie'>
+		<?php require ('includes/pie.php');?>
+	</div>
+</div>

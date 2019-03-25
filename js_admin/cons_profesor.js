@@ -26,8 +26,8 @@ $(document).ready(function(e){
 					}
 				);
 			});
-		/*
-*/
+
+
 			$("#cod_comp").on('change', function(e){
 				var this_val=$.trim($(this).val());
 				if(this_val=='')
